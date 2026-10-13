@@ -1,0 +1,7 @@
+1. Valid Indexes for an array of size 8 is 0-7 and Books[8] would be 
+random 4 bytes since c doesn't have out of array errors.
+2. Book 2 will be able to be checked-out
+3. To prevent accessing an invalid array index.
+4. Because the array is passed to the function in a way that allows it to modify the original array elements.
+5. Returning 1 indicates that the checkout was successful. 
+Setting books[bookID] = 1 changes the book's status to checked out.
